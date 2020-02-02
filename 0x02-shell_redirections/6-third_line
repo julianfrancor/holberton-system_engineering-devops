@@ -1,2 +1,2 @@
 #!/bin/bash
-grep Latin /home/vagrant/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+grep -e Latin /home/vagrant/holberton-system_engineering-devops/0x02-shell_redirections/iacta
