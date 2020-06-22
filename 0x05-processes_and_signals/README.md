@@ -2,9 +2,10 @@
 
 ## Resources:books:
 Read or watch:
-* [Linux PID](https://intranet.hbtn.io/rltoken/FcpEdqz8hau7eEB0Pi8Ong)
-* [Linux process](https://intranet.hbtn.io/rltoken/hX_t2YK0erLPbdTq0-uKwQ)
-* [Linux signal](https://intranet.hbtn.io/rltoken/SojW4zvL8j1yaoa7_NM6rA)
+* [Linux PID](http://www.linfo.org/pid.html)
+* [Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
+* [Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)
+* [How to find the process id in Linux](https://www.youtube.com/watch?v=_5vBubyo1Hs)
 
 ---
 ## Learning Objectives:bulb:
