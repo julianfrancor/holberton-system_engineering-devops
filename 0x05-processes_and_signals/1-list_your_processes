@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Bash script that displays a list of currently running processes. (ps auxf) = (ps aux --forest) "aux" shows all processes and "forest" Show process hierarchy same as "-f"
+ps aux --forest
