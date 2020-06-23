@@ -2,10 +2,28 @@
 
 ## Resources:books:
 Read or watch:
+* [Bash CheatSheets](https://devhints.io/bash)
 * [Linux PID](http://www.linfo.org/pid.html)
 * [Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
 * [Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)
 * [How to find the process id in Linux](https://www.youtube.com/watch?v=_5vBubyo1Hs)
+* [ps - command in linux](https://linuxize.com/post/ps-command-in-linux/)
+* [pgrep](https://linuxize.com/post/pgrep-command-in-linux/)
+* [Intorduction to Unix commands - Kill](https://kb.iu.edu/d/afsk#kill)
+* [How to soft kill GUI-applications via terminal?](https://unix.stackexchange.com/questions/19474/how-to-soft-kill-gui-applications-via-terminal/19475#19475)
+* [Kill signal](https://linux.die.net/Bash-Beginners-Guide/sect_12_01.html)
+* [Job control - kill signal](http://linuxcommand.org/lc3_lts0100.php)
+* [Errors and Signals](http://linuxcommand.org/lc3_wss0150.php)
+* [pkill](https://www.howtoforge.com/linux-pkill-command/)
+* [Read "Traps" pag 453 - The Linux Command Line A Complete Introduction by William E. Shotts](https://books.google.com.co/books?id=ZBKsMYz1Q4kC&pg=PA426&lpg=PA426&dq=In+Chapter+10,+we+saw+how+programs+can+respond+to+signals.+We+can+add+this+capability+to+our+scripts,+too.+While+the+scripts+we+have+written+so+far+have+not+needed+this+capability&source=bl&ots=fLwBYGgSSV&sig=ACfU3U2FDEYQFPPeuDyWxhIJFOwPOdD5KA&hl=en&sa=X&ved=2ahUKEwjT_9X3vJbqAhXCSt8KHfScAOIQ6AEwAHoECAkQAQ#v=onepage&q=In%20Chapter%2010%2C%20we%20saw%20how%20programs%20can%20respond%20to%20signals.%20We%20can%20add%20this%20capability%20to%20our%20scripts%2C%20too.%20While%20the%20scripts%20we%20have%20written%20so%20far%20have%20not%20needed%20this%20capability&f=false)
+* [kill -9: kills a process with Kill signal](https://linux.die.net/Bash-Beginners-Guide/sect_12_01.html)
+* [Create a file in bash scripting](https://www.cyberciti.biz/faq/create-a-file-in-linux-using-the-bash-shell-terminal/)
+* [Read command line](https://www.computerhope.com/unix/bash/read.htm)
+* [Zombie](https://zombieprocess.wordpress.com/what-is-a-zombie-process/)
+* [Ampersands & on the command line](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
+* [Get To Know Linux: The /etc/init.d ](https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/)
+* [Daemon (computing)](https://en.wikipedia.org/wiki/Daemon_%28computing%29)
+* [Positional Parameters](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html)
 
 ---
 ## Learning Objectives:bulb:
