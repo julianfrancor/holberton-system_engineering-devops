@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Manage my process. start, restart and stop.
+loop_infinite=1
+while (( loop_infinite )); do
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
+done
