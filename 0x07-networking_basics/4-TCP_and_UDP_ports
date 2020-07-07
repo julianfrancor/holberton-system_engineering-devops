@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# get active unix domain sockets for a specific pid
+netstat -l -p
