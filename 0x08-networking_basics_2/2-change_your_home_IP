@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# The checker is running on Docker so we need to do sed command with this script
+# Requirements:
+# localhost resolves to 127.0.0.2
+# facebook.com resolves to 8.8.8.8
+cp /etc/hosts ~/hosts.new
+sed -i '/.* localhost$/d' ~/hosts.new
+echo "127.0.0.2 localhost" >> ~/hosts.new
+sed -i '/.* facebook.com$/d' ~/hosts.new
+echo "8.8.8.8 facebook.com" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
