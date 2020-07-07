@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# ping a IP address example 8.8.8.8
+
+if [ "$@" ]; then
+    ping -c 5 "$@"
+else
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
