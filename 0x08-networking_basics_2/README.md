@@ -4,8 +4,12 @@
 Read or watch:
 * [What is localhost](https://en.wikipedia.org/wiki/Localhost)
 * [What is 0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0)
-* [What is the hosts file](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)
-* [Netcat examples](https://www.thegeekstuff.com/2012/04/nc-command-examples/)
+* [What is the hosts file and how to Modify and Manage the Hosts File on Linux](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)
+* [8 Practical Linux Netcat NC Command Examples](https://www.thegeekstuff.com/2012/04/nc-command-examples/)
+* [Docker sed](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
+* [Sed Command in Linux/Unix](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+* [Regex Quick start](https://www.rexegg.com/regex-quickstart.html)
+* [Difference between a port and a socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
 
 ---
 ## Learning Objectives:bulb:
