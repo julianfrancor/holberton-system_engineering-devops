@@ -2,7 +2,7 @@
 
 #### [System engineering & DevOps - Bash](https://intranet.hbtn.io/dashboards/my_current_projects)
 
-##  Learning Objetives
+##  Projects
 
 ### [0x00-shell_basics](./0x00-shell_basics)
 ### [0x01-shell_permissions](./0x01-shell_permissions)
