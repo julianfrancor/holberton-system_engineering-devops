@@ -3,20 +3,24 @@
 ## Resources:books:
 Read or watch:
 * [OSI model](https://en.wikipedia.org/wiki/OSI_model)
-* [Different types of network](https://intranet.hbtn.io/rltoken/H2peG3mV1MDDEK9c9FpGjA)
-* [LAN network](https://intranet.hbtn.io/rltoken/GLVy5U4Ja4c2BnKYDPwT5Q)
-* [WAN network](https://intranet.hbtn.io/rltoken/IghQOBbQi3Y-H82l3s9ERg)
-* [Internet](https://intranet.hbtn.io/rltoken/osfQ04v-6oWuX4LdcpMYfQ)
-* [MAC address](https://intranet.hbtn.io/rltoken/DjY02-vo10kphmiYSa2Msg)
-* [What is an IP address](https://intranet.hbtn.io/rltoken/_pRm6TVS3zWV_cKg51Gn4Q)
-* [Private and public address](https://intranet.hbtn.io/rltoken/Tj1tSxadTHv8kS9Q7lzTpQ)
-* [IPv4 and IPv6](https://intranet.hbtn.io/rltoken/t9AVXK9jpPJrL5ikz5fvKA)
-* [Localhost](https://intranet.hbtn.io/rltoken/uqDHdS73W-CJQakM8vERtQ)
-* [TCP and UDP](https://intranet.hbtn.io/rltoken/nOeDjXQrw-N8eFmTBiuzqw)
-* [TCP/UDP ports List](https://intranet.hbtn.io/rltoken/gfKJyK0ztzhyNO0SIvVibQ)
-* [What is ping /ICMP](https://intranet.hbtn.io/rltoken/OPrB4crHtTLwUynA5YjVNw)
-* [Positional parameters](https://intranet.hbtn.io/rltoken/yN_ZinFzBaLXuJhOhKiMfw)
+* [Different types of network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
+* [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
+* [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
+* [Internet](https://en.wikipedia.org/wiki/Internet)
+* [MAC address](https://whatismyipaddress.com/mac-address)
+* [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
+* [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
+* [IPv4 and IPv6](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
+* [Localhost](https://en.wikipedia.org/wiki/Localhost)
+* [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
+* [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+* [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
+* [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
 * [Networking tutorial (1 of 13)](https://www.youtube.com/watch?v=XaGXPObx2Gs)
+* [How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)
+* [Netstat command to find open ports](https://www.cyberciti.biz/faq/how-do-i-find-out-what-ports-are-listeningopen-on-my-linuxfreebsd-server/)
+* [Get active unix domain sockets for a specific pid](https://unix.stackexchange.com/questions/270544/how-do-i-get-active-unix-domain-sockets-for-a-specific-pid-if-i-cant-use-lsof-c)
+
 ---
 ## Learning Objectives:bulb:
 What did I learn from this project:
