@@ -5,7 +5,6 @@ Read or watch:
 
 * [Protocolos](https://searchnetworking.techtarget.com/definition/protocol)
 * [What is a IP?](https://computer.howstuffworks.com/internet/basics/what-is-an-ip-address.htm)
-* [TCP/IP](Transmission Control Protocol/Internet Protocol)
 * [What is TCP/IP?](https://searchnetworking.techtarget.com/definition/TCP-IP)
 * [What is an Internet Protocol (IP) port?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
 * [What is a server](https://en.wikipedia.org/wiki/Server_(computing)#Hardware_requirement)
