@@ -92,12 +92,12 @@ What did I learn from this project:
 
 #### Requirements:
 * You must add:
- - 2 servers
- - 1 web server (Nginx)
- - 1 application server
- - 1 load-balancer (HAproxy)
- - 1 set of application files (your code base)
- - 1 database (MySQL)
+    - 2 servers
+    - 1 web server (Nginx)
+    - 1 application server
+    - 1 load-balancer (HAproxy)
+    - 1 set of application files (your code base)
+    - 1 database (MySQL)
 * You must be able to explain some specifics about this infrastructure:
 * For every additional element, why you are adding it
 * What distribution algorithm your load balancer is configured with and how it works
@@ -113,11 +113,10 @@ What did I learn from this project:
 * On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
 
 #### Requirements:
-
 * You must add:
- - 3 firewalls
- - 1 SSL certificate to serve www.foobar.com over HTTPS
- - 3 monitoring clients (data collector for Sumologic or other monitoring services)
+    - 3 firewalls
+    - 1 SSL certificate to serve www.foobar.com over HTTPS
+    - 3 monitoring clients (data collector for Sumologic or other monitoring services)
 * You must be able to explain some specifics about this infrastructure:
 * For every additional element, why you are adding it
 * What are firewalls for
@@ -135,11 +134,11 @@ What did I learn from this project:
 
 #### Requirements:
 * You must add:
- - 1 server
- - 1 load-balancer (HAproxy) configured as cluster with the other one
+    - 1 server
+    - 1 load-balancer (HAproxy) configured as cluster with the other one
 * Split components (web server, application server, database) with their own server
 * You must be able to explain some specifics about this infrastructure:
- - For every additional element, why you are adding it
+    - For every additional element, why you are adding it
 
 ---
 
