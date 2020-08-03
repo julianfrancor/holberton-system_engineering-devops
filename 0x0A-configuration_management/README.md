@@ -2,6 +2,7 @@
 
 ## Resources:books:
 Read or watch:
+* [Write Puppet manifests](https://www.oreilly.com/library/view/learning-puppet-4/9781491907993/ch04.html)
 * [Intro to Configuration Management](https://intranet.hbtn.io/rltoken/r-NmkYO8bxIKp2qEx2ZjKQ)
 * [Puppet resource type: file](https://intranet.hbtn.io/rltoken/fuhnsI9_1_F4GrHwGT3GxA)
 * [Puppet’s Declarative Language: Modeling Instead of Scripting](https://intranet.hbtn.io/rltoken/Fqmb5rnChQgYAypvKoTxAQ)
