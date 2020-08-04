@@ -9,6 +9,8 @@ Read or watch:
 * [Public Key Authentication for SSH](https://intranet.hbtn.io/rltoken/ZBYjVLcJ-ck-CFjndgSDBw)
 * [How Secure Shell Works](https://intranet.hbtn.io/rltoken/SW2m2e0KMA2K1dXk_0M0CA)
 * [SSH Crash Course](https://intranet.hbtn.io/rltoken/8N-RlUma9lwGfyZp1_C-Wg)
+* [How to change configuration file using puppet](https://ask.puppet.com/question/16281/how-to-change-configuration-file-using-puppet/)
+* [Writing Puppet manifests](https://www.oreilly.com/library/view/learning-puppet-4/9781491907993/ch04.html)
 
 ---
 ## Learning Objectives:bulb:
