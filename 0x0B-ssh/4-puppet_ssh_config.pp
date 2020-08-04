@@ -1,10 +1,10 @@
 # Client configuration file (w/ Puppet)
 
-file_line { 'IdentifyFile':
+file_line { 'IdentityFile':
   ensure => present,
   path   => '/etc/ssh/ssh_config',
-  line   => 'IdentifyFile ~/.ssh/holberton',
-  match  => '^IdentifyFile',
+  line   => 'IdentityFile ~/.ssh/holberton',
+  match  => '^IdentityFile',
 }
 
 file_line { 'PasswordAuthentication':
@@ -13,4 +13,3 @@ file_line { 'PasswordAuthentication':
   line   => 'PasswordAuthentication no',
   match  => '^PasswordAuthentication',
 }
-
