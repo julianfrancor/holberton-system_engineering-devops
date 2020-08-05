@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP' # Nginx should be listening on port 80
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sudo systemctl restart nginx
