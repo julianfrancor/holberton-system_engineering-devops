@@ -8,13 +8,13 @@ package { 'nginx':
 
 file { 'index.html':
   path    => '/var/www/html/index.html',
-  mode    => '0664',
+  mode    => '0644',
   content => 'Holberton School'
 }
 
 file_line { '301 Moved Permanently':
   path  => '/etc/nginx/sites-available/default',
-  line  => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
+  line  => '/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
   match => '^server {'
 }
 
