@@ -6,9 +6,9 @@ package { 'nginx':
   provider => 'apt'
 }
 
-file { 'index.html':
-  path    => '/var/www/html/index.nginx-debian.html',
-  mode    => '0644',
+file { 'index':
+  path    => '/var/www/html/index.html',
+  mode    => '0664',
   content => 'Holberton School'
 }
 
