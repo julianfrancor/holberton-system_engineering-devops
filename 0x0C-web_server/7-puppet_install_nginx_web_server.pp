@@ -1,7 +1,8 @@
-# install the package
 
+# install the package
 package { 'nginx':
   ensure   => 'latest',
+  name     => 'nginx',
   provider => 'apt'
 }
 
