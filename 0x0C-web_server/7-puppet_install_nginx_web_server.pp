@@ -1,4 +1,3 @@
-
 # install the package
 package { 'nginx':
   ensure   => 'latest',
@@ -6,7 +5,7 @@ package { 'nginx':
   provider => 'apt'
 }
 
-file { 'index.html':
+file { 'index':
   path    => '/var/www/html/index.nginx-debian.html',
   mode    => '0644',
   content => 'Holberton School'
