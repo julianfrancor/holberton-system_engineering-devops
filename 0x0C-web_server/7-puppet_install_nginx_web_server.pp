@@ -11,10 +11,10 @@ file { 'index':
   content => 'Holberton School'
 }
 
-file_line { '301 Moved Permanently':
+file_line { 'redirect_me':
   path  => '/etc/nginx/sites-available/default',
-  line  => '\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
-  after => '^server {'
+  line  => "\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;/n/t%7D",
+  after => '^server {',
 }
 
 service { 'nginx':
