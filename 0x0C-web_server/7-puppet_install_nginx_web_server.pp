@@ -7,8 +7,8 @@ package { 'nginx':
 }
 
 file { 'index.html':
-  path    => '/var/www/html/index.nginx-debian.html',
-  mode    => '0644',
+  path    => '/var/www/html/index.html',
+  mode    => '0664',
   content => 'Holberton School'
 }
 
