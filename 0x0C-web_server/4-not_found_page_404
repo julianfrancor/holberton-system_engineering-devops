@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#  Not found page 404
+
+
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP' # Nginx should be listening on port 80
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sudo sed -i "46i rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+sudo sed -i "35 a\ \terror_page 404 /custom_404.html;\n\tlocation = /custom_404.html {\n\troot /usr/share/nginx/html;\n\tinternal;\n\t\t}\n" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+
+
+
