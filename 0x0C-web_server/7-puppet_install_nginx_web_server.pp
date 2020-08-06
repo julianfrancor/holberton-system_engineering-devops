@@ -14,8 +14,8 @@ file { 'index.html':
 
 file_line { '301 Moved Permanently':
   path  => '/etc/nginx/sites-available/default',
-  line  => 'server {\n\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
-  match => '^server {'
+  line  => "\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;/n/t%7D",
+  after => '^server {'
 }
 
 service { 'nginx'
