@@ -6,7 +6,7 @@ package { 'nginx':
   provider => 'apt'
 }
 
-file { 'index.html'
+file { 'index.html':
   path    => '/var/www/html/index.nginx-debian.html',
   mode    => '0644',
   content => 'Holberton School'
@@ -18,7 +18,7 @@ file_line { '301 Moved Permanently':
   match => '^server {'
 }
 
-service { 'nginx'
+service { 'nginx':
   ensure => running,
   enable => true
 }
