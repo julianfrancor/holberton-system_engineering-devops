@@ -18,7 +18,7 @@ file_line { '301 Moved Permanently':
   after => '^server {'
 }
 
-service { 'nginx'
+service { 'nginx':
   ensure => running,
   enable => true
 }
