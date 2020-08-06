@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# debbuging a project to make it work
+sudo apt-get install apache2
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 start
