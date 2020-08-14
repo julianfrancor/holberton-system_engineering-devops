@@ -2,9 +2,6 @@
 # Redirection
 # https://www.digitalocean.com/community/tutorials/how-to-create-temporary-and-permanent-redirects-with-nginx
 
-#!/usr/bin/env bash
-# Redirection
-
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP' # Nginx should be listening on port 80
