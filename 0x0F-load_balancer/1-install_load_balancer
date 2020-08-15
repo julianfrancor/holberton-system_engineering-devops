@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+sudo apt-get -y update
+sudo apt-get install -y haproxy=1.6.\*
+frontend_variable="frontend http\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend-julian\n"
+backend_variable="backend web-backend-julian\n\tbalance roundrobin\n\tmode http\n\tserver web-01 34.73.51.195:80 check\n\tserver web-02 34.73.59.80:80 check"
+sudo sed -i "20i \\\n$frontend_variable\n$backend_variable" /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
