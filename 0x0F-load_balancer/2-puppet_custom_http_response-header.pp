@@ -11,7 +11,7 @@ package { 'nginx':
 }
 
 file_line { 'add_custom_header':
-  path  => '/etc/nginx/sites-available/default',
+  path  => '/etc/nginx/nginx.conf',
   line  => "add_header X-Served-By ${hostname};",
   after => '^server_name _;'
 }
