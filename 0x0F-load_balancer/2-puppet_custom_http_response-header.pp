@@ -8,7 +8,6 @@ exec { 'update':
 package { 'nginx':
   ensure   => 'installed',
   name     => 'nginx',
-  provider => 'apt'
 }
 
 file_line { 'add_custom_header':
