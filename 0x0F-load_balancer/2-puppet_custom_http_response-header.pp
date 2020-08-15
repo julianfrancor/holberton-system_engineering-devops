@@ -15,7 +15,7 @@ package { 'nginx':
 file_line { 'add_custom_header':
   path  => '/etc/nginx/sites-available/default',
   line  => 'add_header X-Served-By \$HOSTNAME;',
-  after => 'server_name _;'
+  after => '^server_name _;'
   require  => Package['nginx']
 }
 
