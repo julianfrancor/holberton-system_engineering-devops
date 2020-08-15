@@ -1,22 +1,17 @@
 # install the package
 
 exec { 'update':
-  command => 'sudo apt-get update',
-  path    => ['/bin', '/usr/bin'],
+  command => '/usr/bin/apt-get update',
 }
-
 package { 'nginx':
   ensure => 'installed',
   name   => 'nginx',
 }
-
 file_line { 'add_custom_header':
   path  => '/etc/nginx/sites-available/default',
-  line  => "add_header X-Served-By ${hostname};",
-  after => '^server_name _;'
+  line  => "\tadd_header X-Served-By ${hostname};",
+  after => '/server_name _;'
 }
-
 exec { 'restart':
-  command => 'sudo service nginx restart',
-  path    => ['/bin', '/usr/bin'],
+  command => '/usr/sbin/service nginx restart',
 }
