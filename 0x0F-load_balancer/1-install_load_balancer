@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Install and configure HAproxy on the lb-01 server.
+# Install your load balancer with Roundrobin
 sudo apt-get -y update
 sudo apt-get install -y haproxy=1.6.\*
 frontend_variable="frontend http\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend-julian\n"
