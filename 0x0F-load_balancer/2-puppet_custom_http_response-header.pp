@@ -22,5 +22,5 @@ file_line { 'add_custom_header':
 exec { 'restart':
   command => 'sudo service nginx restart',
   path    => ['/bin', '/usr/bin'],
-  require => Exec['add_custom_header']
+  require => File_line ['add_custom_header']
 }
