@@ -1,8 +1,8 @@
 # install the package
 
 exec { 'update':
-  command   => 'sudo apt-get update',
-  path      => ['/bin', '/usr/bin'],
+  command => 'sudo apt-get update',
+  path    => ['/bin', '/usr/bin'],
 }
 
 package { 'nginx':
@@ -18,6 +18,6 @@ file_line { 'add custom header':
 }
 
 exec { 'restart':
-  command   => 'sudo service nginx restart',
-  path      => ['/bin', '/usr/bin'],
+  command => 'sudo service nginx restart',
+  path    => ['/bin', '/usr/bin'],
 }
