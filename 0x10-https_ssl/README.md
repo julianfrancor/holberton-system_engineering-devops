@@ -7,6 +7,8 @@ Read or watch:
 * [HAProxy SSL termination on Ubuntu16.04](https://intranet.hbtn.io/rltoken/UkbvWfKF6ZAY_CUvlM32lA)
 * [SSL termination](https://intranet.hbtn.io/rltoken/VFq2MQ9qHXw2Nb11tnWF6Q)
 * [Bash function](https://intranet.hbtn.io/rltoken/v4PUYiN5CxhYKSycYaVvLw)
+* [Configurar HaProxy para usear certificados](http://blog.infratic.com/configurar-lets-encrypt-con-haproxy-en-rhelcentossl-7/)
+* [awk](https://www.youtube.com/watch?v=AUg5qFimRWQ)
 
 ---
 ## Learning Objectives:bulb:
