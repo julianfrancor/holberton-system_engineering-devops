@@ -3,6 +3,8 @@
 ## Resources:books:
 Read or watch:
 * [What is a firewall](https://intranet.hbtn.io/rltoken/QS5iHSDU_woydPRIb68sOw)
+* [install the ufw firewall and setup a few rules on server](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+* [ufw port forwarding](https://bobcares.com/blog/ufw-port-forwarding/)
 
 ---
 ## Learning Objectives:bulb:
