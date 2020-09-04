@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+sudo apt-get -y update
+sudo apt-get install -y nginx
+sudo ufw allow 'Nginx HTTP' # Nginx should be listening on port 80
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+printf %s "server {
+        # Habilitar el puerto 80 (HTTP)
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        # Name of the custom HTTP header must be X-Served-By
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+        server_name _;
+        # Redirection 301 = Moved Permanently
+        location /redirect_me {
+                return 301 url_to_redirect;
+        }
+        # Asignar la página de error
+        error_page 404 /404.html
+        location /404 {
+                root    /var/www/html;
+                internal;
+}
+}" > /etc/nginx/sites-available/default
+service nginx restart
