@@ -5,6 +5,9 @@ Read or watch:
 * [What is a primary-replica cluster](https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication)
 * [MySQL primary replica setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-master-slave-replication-in-mysql)
 * [Build a robust database backup strategy](https://www.databasejournal.com/features/mssql/developing-a-sql-server-backup-strategy.html)
+* [How to set up master slave replication in MySQL](https://aarvik.dk/how-to-set-up-master-slave-replication-in-mysql/index.html)
+* [mysqldump](https://www.linuxtotal.com.mx/index.php?cont=info_admon_021)
+* [compress files using tar tar.gz (tar -czvf)](https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/)
 
 ---
 ## Learning Objectives:bulb:
