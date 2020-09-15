@@ -14,7 +14,7 @@ def employee_name():
     URL = "{}/users/{}".format(DOMAIN, user_id)
     req = requests.get(URL)
     mydict = req.json()
-    EMPLOYEE_NAME = mydict["name"]
+    EMPLOYEE_NAME = mydict.get("name")
     return (EMPLOYEE_NAME)
 
 
@@ -47,7 +47,7 @@ def tasks_name():
     list_of_dicts = req.json()
     completed_tasks_titles = []
     for dictionary in list_of_dicts:
-        completed_tasks_titles.append(dictionary["title"])
+        completed_tasks_titles.append(dictionary.get("title"))
     return completed_tasks_titles
 
 
