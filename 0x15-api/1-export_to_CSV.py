@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Gather data from an API"""
 
-import requests
 from sys import argv
 import csv
+import requests
 
 
 DOMAIN = "https://jsonplaceholder.typicode.com"
