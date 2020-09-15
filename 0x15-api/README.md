@@ -9,6 +9,7 @@ Read or watch:
 * [What is a REST API](https://www.sitepoint.com/developers-rest-api/)
 * [What are microservices](https://smartbear.com/solutions/microservices/)
 * [PEP8 Python style - having a clean code respecting style guide is really appreciated in the industry](https://www.python.org/dev/peps/pep-0008/)
+* [Reading and Writing CSV Files in Python](https://realpython.com/python-csv/)
 
 
 ---
