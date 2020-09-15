@@ -63,7 +63,7 @@ def constructor():
         name, done_tasks, total_tasks)
     print(message)
     for TASK_NAME in list_tasks_titles:
-        print("     {}".format(TASK_NAME))
+        print("  {}".format(TASK_NAME))
 
 
 if __name__ == "__main__":
