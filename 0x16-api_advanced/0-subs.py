@@ -16,7 +16,10 @@ def number_of_subscribers(subreddit):
     headers = {"User-Agent": "iOSJulian:myappJulian:v1 (by /u/julianfrancor)"}
     req = requests.get(URL, headers=headers)
     about_dictionary = req.json()
-    total_subscribers = about_dictionary.get('data').get('subscribers')
+    data = about_dictionary.get('data')
+    if data is None:
+        return 0
+    total_subscribers = data.get('subscribers')
     if total_subscribers is None:
         return 0
     return total_subscribers
