@@ -16,10 +16,12 @@ def top_ten(subreddit):
     about_dictionary = req.json()
     data = about_dictionary.get('data')
     if data is None:
-        return None
+        print("None")
+        return
     childrens = data.get('children')
     if childrens is None:
-        return None
+        print("None")
+        return
     for children in childrens:
         myTitle = children.get('data').get('title')
         print(myTitle)
