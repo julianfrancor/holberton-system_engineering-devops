@@ -12,20 +12,23 @@ def recurse(subreddit, hot_list=[], after=None):
     If no results are found for the given subreddit, the function should
     return None."""
 
-    URL = "https://www.reddit.com/r/{}/hot.json?after={}".format(
-        subreddit, after)
+    URL = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {"User-Agent": "iOSJulian:myappJulian:v1 (by /u/julianfrancor)"}
-    req = requests.get(URL, headers=headers)
-    about_dictionary = req.json()
-    data = about_dictionary.get('data')
+    payload = {'after': after}
+
+    response = requests.get(URL, headers=headers, params=payload)
+
+    mydictionary = response.json()
+    data = mydictionary.get('data')
     if data is None:
         return None
+    after_value = data.get('after')
+    if after_value is None:
+        return(hot_list)
     childrens = data.get('children')
     if childrens is None:
         return None
+
     for children in childrens:
         hot_list.append(children['data']['title'])
-    af = data.get('after')
-    if af is not None:
-        return recurse(subreddit, hot_list, af)
-    return(hot_list)
+    return recurse(subreddit, hot_list, after_value)
