@@ -1,9 +1,9 @@
 # Using Puppet, to fix ulimit (Max Open FIles Limit) for Nginx on Ubuntu
 exec {'fix-ulimit':
-  path    => '/usr/bin/env',
+  path    => '/bin/',
   command => 'sed -i s/15/1000/ /etc/default/nginx',
 }
 -> exec {'restart nginx service':
-  path    => '/usr/bin/env',
+  path    => '/bin/',
   command => 'service nginx restart',
 }
