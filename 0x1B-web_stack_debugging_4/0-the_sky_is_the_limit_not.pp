@@ -4,6 +4,6 @@ exec {'fix-ulimit':
   command => 'sed -i s/15/1000/ /etc/default/nginx',
 }
 -> exec {'restart nginx service':
-  path    => '/bin/',
+  path    => '/usr/bin/',
   command => 'service nginx restart',
 }
