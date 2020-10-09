@@ -63,7 +63,7 @@ rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
 
 
 	 location /api/ {
-                proxy_pass http://0.0.0.0:5002;
+                proxy_pass http://0.0.0.0:5002/api/;
         }
 	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
 	#
