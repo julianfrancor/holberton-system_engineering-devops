@@ -47,13 +47,13 @@ add_header X-Served-By 1528-web-01;
 error_page 404 /custom_404.html;
 rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
 
-	location / {
+	#location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
-		try_files $uri $uri/ =404;
-	}
+		#try_files $uri $uri/ =404;
+	#}
 
-	  location /airbnb-onepage/ {
+	location /airbnb-onepage/ {
                 proxy_pass http://0.0.0.0:5000/airbnb-onepage;
         }
 
@@ -70,7 +70,7 @@ rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
 	location / {
 		proxy_pass http://0.0.0.0:5003/2-hbnb;
 		location /static {
-			alias /home/ubuntu/AirBnB_clone_v4/web_dynamic/static/
+			alias /home/ubuntu/AirBnB_clone_v4/web_dynamic/static/;
 		}
 	}
 
